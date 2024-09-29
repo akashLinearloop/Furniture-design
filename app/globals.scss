@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {}
+
+.syneFont {
+    font-family: "Syne", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
