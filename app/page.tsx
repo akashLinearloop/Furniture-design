@@ -4,6 +4,8 @@ import WhyChoosingUsSection from "./_components/whyChoosingUsSection";
 import ShopRoomSection from "./_components/shopRoomSection";
 import BestSellingSection from "./_components/bestSellingSection";
 import OurCreationSetion from "./_components/ourCreationSetion";
+import ShinningLightSection from "./_components/shinningLightSection";
+import ClientsReviewsSection from "./_components/clientsReviewsSection";
 
 export default function Home() {
   return (
@@ -19,8 +21,14 @@ export default function Home() {
         <div className="mt-32">
           <BestSellingSection />
         </div>
-        <div>
+        <div className="mt-20">
           <OurCreationSetion />
+        </div>
+        <div className="mt-96">
+          <ShinningLightSection />
+        </div>
+        <div className="mt-52">
+          <ClientsReviewsSection />
         </div>
       </div>
     </>
